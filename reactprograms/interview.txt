@@ -1,5 +1,0 @@
-which file will run when we start the react server?
-what is the virtualDom?
-which algorithm is used in reactjs?// Diffing algorithm
-what is the name of the process of updating the DOM tree in reactjs?// resonciliation
-what is promps?
