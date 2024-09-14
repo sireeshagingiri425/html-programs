@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message box</title>
+    <link rel="stylesheet" href="./message.css">
+</head>
+<body>
+    <div id="box"></div>
+    <div class="main_div">
+<button id="box1" onclick="message('Iam 200px size', 'aqua', 10)"> Iam 10px size</button>
+<button id="box2" onclick="message('Iam 200px size', '#00ff84', 20)">Iam 20px size </button>
+<button id="box3" onclick="message('Iam 300px size','#ff5100',30)"> Iam 30px size</button>
+<button id="box4" onclick="message('Iam 400px size','#ff0011',40)">Iam 40px size</button>
+</div>
+<script>
+
+function message(name,color,size){
+ document.getElementById("box").innerText=` ${name}`   
+ document.getElementById("box").style.backgroundColor=` ${color}`
+ document.getElementById("box").style.fontSize= `${size}px`
+ 
+}
+
+</script>
+</body>
+</html>

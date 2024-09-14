@@ -1,0 +1,78 @@
+/*1. Global selector(*) :  I t will targets all elements inside body tag.  */
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+* { 
+    Styles to apply to all element
+ }
+*/
+
+/* 2.Tag/element selector: It target HTML elements based on their tag name */
+p{
+    color:brown;
+}
+/* syntax:
+element{
+    styles to apply
+}
+ */
+
+
+ /* 3.Class selector(.): 
+ A class selector in CSS targets HTML elements based on their class attribute. 
+It allows you to apply styles to specific groups of elements */
+.color{
+    font-size: 30px;
+    background-color: cadetblue;
+}
+/* syntax:
+.classname{
+    styles
+} */
+
+
+/* 4.Id selector: 
+An ID selector in CSS targets HTML elements based on their unique ID attribute.
+ It allows you to apply styles to a single element  */
+#welcome{
+  background-color: chartreuse;  
+}
+/* syntax:
+#IDname{
+    styles
+} */
+
+
+/* B.Relationship selectors these are two types
+      1.Parent -child---> a.Descendents(space) b.Direct chaild(>)
+      2.sibling-----> c.General sibling (~)d.adjacent sibling(+)
+
+a.Descendent selector (space):
+The descendant selector matches all elements that are descendants of a specified element.
+*/
+div p{
+   color:blue 
+}
+/* syntax:
+parentElement descendantElement{
+    styles to apply
+    
+} */
+
+
+/* b.direct chaild:(>) : targets elements that are direct children of a specific parent elemen*/
+ul li{
+    background-color: cornflowerblue;
+}
+/* syntax :
+parent element>chaild element{
+    apply styles
+} */
+
+/* c.Adjacent sibling selector (+): It allows you to apply styles to elements that come directly after another element*/
+
+h1+p{
+    color:fuchsia;
+}

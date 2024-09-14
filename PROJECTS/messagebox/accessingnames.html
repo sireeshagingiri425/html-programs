@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="accessingnames.css">
+    <title>Displaying Names</title>
+</head>
+<body>
+    <div id="box">
+       
+    </div>
+    <section class="main_box">
+    <button id="box1" onclick="message('Siri')">Siri</button>
+    <button id="box2" onclick="message('Rama')">Rama</button>
+    <button id="box3" onclick="message('Madhu')">Madhu</button>
+    <button id="box4" onclick="message('Raji')">Raji</button>
+    <button id="box5" onclick="message('Madhav')">Madhav</button>
+    <button id="box6" onclick="message('Nishanth')">Nishanth</button>
+    <button id="box7" onclick="message('Dhanvika')">Dhanvika</button>
+    <button id="box8" onclick="message('Lavanya')">Lavanya</button>
+</section>
+
+    <script>
+        function message (name){
+
+        
+        document.getElementById("box").innerText=`${name}`
+        }
+    </script>
+</body>
+</html>

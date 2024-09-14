@@ -1,0 +1,13 @@
+h3{
+    position:absolute;
+    border: 1px solid green;
+    background: linear-gradient(orange,white,green);
+    padding:10px;
+    top:100px;
+}
+section{
+    position:relative;
+    height:50px;
+    border:5px dashed green;
+    top:200px;
+}

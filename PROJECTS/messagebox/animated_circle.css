@@ -1,0 +1,30 @@
+#circle{
+    border:solid 20px black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    /* margin: 100px 500px; */
+    border-color:red hwb(124 12% 5%);
+    color:#6109d4;
+    font-weight: 900px;
+    text-align: center;
+    line-height: 100px;
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+}
+
+@keyframes circle {
+    from{transform: rotate(0deg);
+        left:0px
+
+    }
+    to{
+        transform:rotate(5000deg);
+        left:1000px
+    }
+}

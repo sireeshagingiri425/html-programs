@@ -1,0 +1,41 @@
+.main_div{
+    border:  2px solid black;
+    width:300px;
+    height:100px;
+    margin: 20px 520px;
+    line-height: 50px;
+    background-color: #c2fcfc;
+}
+  #box{
+    border: solid 5px black;
+    height: 100px;
+    width: 300px;
+    margin: 100px 520px;
+    text-align: center;
+    line-height: 100px;
+    background-color: cadetblue;
+    color:#080707;
+    font-size: 20px;
+  }
+
+button{
+    margin-left: 30px;
+    border-radius: 5px;
+    padding:8px;
+}
+#box1{
+    background-color: aqua;
+    color:black;
+}
+#box2{
+    background-color: #00ff84;
+    color:black;
+}
+#box3{
+    background-color: #ff5100;
+    color:black;
+}
+#box4{
+    background-color: #ff0011;
+    color:black;
+}
